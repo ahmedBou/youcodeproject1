@@ -67,7 +67,7 @@ h1, h2, h3 {
   }
   /*Section*/
   section{
-    background: url(img/bg.jpg);
+    background: url("../img/bg.jpg");
     height: 600px;
   }
   
