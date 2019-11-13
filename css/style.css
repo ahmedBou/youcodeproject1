@@ -72,9 +72,8 @@ h1, h2, h3 {
   }
   /*Section*/
   section{
-      background: url(bg.jpg);
-      background-size: cover;
-      padding: 60px 0;
+    background: url('img/bj.jpg') no-repeat center center/cover;
+    height: 600px;
   }
   .section-title{
       text-align: center;
