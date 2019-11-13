@@ -62,7 +62,7 @@ h1, h2, h3 {
     font-family: "montserrat",sans-serif;
     box-sizing: border-box;
   }
-  /*div priciplae */
+  /*Main div */
   .inner-width{
       width: 100%;
       max-width: 1200px;
