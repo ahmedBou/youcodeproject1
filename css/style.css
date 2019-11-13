@@ -57,6 +57,7 @@ h1, h2, h3 {
     color: #f7c08a;
 }
 /*section service*/
+
   .inner-width{
       width: 100%;
       max-width: 1200px;
@@ -66,14 +67,17 @@ h1, h2, h3 {
   }
   /*Section*/
   section{
-    background: url(img/bg.jpg);
+    background: url(bg.jpg);
     height: 600px;
   }
+  
   .section-title{
       text-align: center;
       color: #ddd;
       text-transform: uppercase;
       font-size: 30px;
+      position: relative;
+      top: 20px;
     }
     .border{
       width: 160px;
