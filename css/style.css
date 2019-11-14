@@ -98,7 +98,7 @@ h1, h2, h3 {
       text-align: center;
       color: #ddd;
       cursor: pointer;
-      margin-bottom: 50px;
+      margin-bottom: 20px;
     }
     .service-icon{
       display: inline-block;
@@ -116,5 +116,5 @@ h1, h2, h3 {
     }
     .service-icon:hover{
       background: #daa22b;
-      color: #ddd
+      color: #ddd;
     }
