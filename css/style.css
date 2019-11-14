@@ -2,13 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "montserrat",sans-serif;
+    font-family: "montserrat", sans-serif;
 }
 
+
 /* Main stylin */
-html,body {
-    font-family: 'Segoe UI', Tahoma, Geneva,
-                  Verdana, sans-serif;
+
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
 }
 
@@ -17,10 +19,15 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     padding-bottom: 20px;
 }
+
+
 /* navbar */
+
 #navbar {
     background: #333;
     color: #fff;
@@ -32,8 +39,8 @@ h1, h2, h3 {
 }
 
 #navbar h1 {
-   float: left;
-   padding-top: 20px;
+    float: left;
+    padding-top: 20px;
 }
 
 #navbar ul {
@@ -56,65 +63,135 @@ h1, h2, h3 {
     background: #444;
     color: #f7c08a;
 }
+
+
 /*section service*/
 
-  .inner-width{
-      width: 100%;
-      max-width: 1200px;
-      margin: auto;
-      padding: 0 20px;
-      overflow: hidden;
-  }
-  /*Section*/
-  section{
+.inner-width {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+
+/*Section*/
+
+section {
     background: url("../img/bg.jpg");
     height: 600px;
-  }
-  
-  .section-title{
-      text-align: center;
-      color: #ddd;
-      text-transform: uppercase;
-      font-size: 30px;
-      position: relative;
-      top: 20px;
-    }
-    .border{
-      width: 160px;
-      height: 2px;
-      background: #daa22b;
-      margin: 40px auto;
-     
-    }
-    .containner{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    
-  .service-box{
-      max-width: 33.33%;
-      padding: 10px;
-      text-align: center;
-      color: #ddd;
-      cursor: pointer;
-      margin-bottom: 50px;
-    }
-    .service-icon{
-      display: inline-block;
-      width: 70px;
-      height: 70px;
-      border: 3px solid #daa22b;
-      border-radius: 100%;
-      color: #fff;
-      margin-bottom: 30px;
-      margin-top: 16px;
-      transition: 0.7s linear;
-    }
-    .fas,.fab{
-        padding-top: 20px;
-    }
-    .service-icon:hover{
-      background: #daa22b;
-      color: #ddd
-    }
+}
+
+.section-title {
+    text-align: center;
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+}
+
+.border {
+    width: 160px;
+    height: 2px;
+    background: #daa22b;
+    margin: 40px auto;
+}
+
+.containner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-box {
+    max-width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    color: #ddd;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.service-icon {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #daa22b;
+    border-radius: 100%;
+    color: #fff;
+    margin-bottom: 30px;
+    margin-top: 16px;
+    transition: 0.7s linear;
+}
+
+.fas,
+.fab {
+    padding-top: 20px;
+}
+
+.service-icon:hover {
+    background: #daa22b;
+    color: #ddd
+}
+
+
+/*2éme section*/
+
+.title {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+}
+
+.profil {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picture {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.picture-1 {
+    background-image: url(https://www.clipartwiki.com/clipimg/detail/151-1512275_business-women-png-business-woman-png-hd.png);
+}
+
+.picture-2 {
+    background-image: url(https://media.istockphoto.com/photos/portrait-of-smiling-handsome-man-in-blue-tshirt-standing-with-crossed-picture-id1045886560?k=6&m=1045886560&s=612x612&w=0&h=hXrxai1QKrfdqWdORI4TZ-M0ceCVakt4o6532vHaS3I=);
+}
+
+.picture-3 {
+    background-image: url(https://image.shutterstock.com/image-photo/casually-handsome-confident-young-man-260nw-439433326.jpg);
+    background-position-x: center;
+    background-position-y: 20px;
+}
+
+.picture-4 {
+    background-image: url(https://img.freepik.com/free-photo/handsome-young-businessman-shirt-eyeglasses_85574-6228.jpg?size=626&ext=jpg);
+}
+
+.picture-5 {
+    background-image: url(https://media.istockphoto.com/photos/happy-laughing-man-picture-id544358212?k=6&m=544358212&s=612x612&w=0&h=odURMNz2hty8LIfpVahaaUKpGU4vd-UlZx4jy-OAnJA=);
+}
+
+.name {
+    font-size: 23px;
+    color: #daa22b;
+    margin-top: 30px;
+}
