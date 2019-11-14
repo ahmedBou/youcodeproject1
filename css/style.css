@@ -4,8 +4,19 @@
     box-sizing: border-box;
     font-family: "montserrat", sans-serif;
 }
-
-
+/*logo*/
+.containner{
+  display: flex;
+ 
+}
+.logo{
+  position: absolute;
+  width: auto;
+  height: auto;
+  max-height: 82px;
+  max-width: 300px;
+  margin-left: 40px;
+}
 /* Main stylin */
 
 html,
@@ -33,6 +44,8 @@ h3 {
     background: #333;
     color: #fff;
     overflow: auto;
+    
+    
 }
 
 #navbar a {
@@ -64,7 +77,52 @@ h3 {
     background: #444;
     color: #f7c08a;
 }
+/*parite home*/
+    
+.homeTitle{
+  color:rgb(230, 186, 104);
+  opacity: 0.9;
+  font-size: 90px;
+  text-align: center;
+  margin-top: -390px;
+  font-family: 'Permanent Marker', cursive;
+}
+.background{
+  background-image: url(../img/work.jpg);
+  opacity: .7;
+  width: 100%;
+  height: 594px;
+  background-size: cover;
 
+}
+.Qutes{
+  color: wheat;
+  font-family: 'Permanent Marker', cursive;
+  opacity: 0.9;
+  text-align: center;
+  position: absolute;
+  top: 400px;
+  left: 400px;
+  font-size: 30px;
+}
+.buttonAtt{
+  color:#a39193;
+  font-size: 26px;
+  padding: 16px 40px;
+  opacity: .9;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  margin-left: 520px;
+  margin-top: 150px;
+  border-radius: 30px;
+  border: none;
+}
+
+.buttonAtt:hover {
+  background-color: wheat;
+  color: #66545e;
+  transition: 2s all ease-in;
+}
 
 /*section service*/
 
@@ -81,8 +139,59 @@ h3 {
 
 section {
     background: url("../img/bg.jpg");
-    height: 600px;
-}
+    height: 700px;
+    margin-top: 125px;
+   
+  }
+
+  
+  .section-title{
+      text-align: center;
+      color: #ddd;
+      text-transform: uppercase;
+      font-size: 30px;
+      position: relative;
+      top: 20px;
+    }
+    .border{
+      width: 160px;
+      height: 2px;
+      background: #daa22b;
+      margin: 40px auto;
+     
+    }
+    .containner{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+  .service-box{
+      max-width: 33.33%;
+      padding: 10px;
+      text-align: center;
+      color: #ddd;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+    .service-icon{
+      display: inline-block;
+      width: 70px;
+      height: 70px;
+      border: 3px solid #daa22b;
+      border-radius: 100%;
+      color: #fff;
+      margin-bottom: 30px;
+      margin-top: 16px;
+      transition: 0.7s linear;
+    }
+    .fas,.fab{
+        padding-top: 20px;
+    }
+    .service-icon:hover{
+      background: #daa22b;
+      color: #ddd;
+    }
 
 .section-title {
     text-align: center;
@@ -196,6 +305,7 @@ section {
     color: #daa22b;
     margin-top: 30px;
 }
+<<<<<<< HEAD
 /* Utility Classes */
 .container {
   margin: auto;
@@ -314,3 +424,5 @@ section {
   color: #fff;
   padding: 20px;
 }
+=======
+>>>>>>> 018f18e29fea74da3e56ad7a12f2249d82f7dee9
