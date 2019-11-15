@@ -7,11 +7,6 @@
 
 
 /*logo*/
-
-.containner {
-    display: flex;
-}
-
 .logo {
     position: absolute;
     width: auto;
@@ -117,7 +112,8 @@ h3 {
 .buttonAtt:hover {
     background-color: wheat;
     color: #66545e;
-    transition: 2s all ease-in;
+    transition: 0.5s all ease-in linear;
+    cursor: pointer;
 }
 
 
@@ -156,8 +152,8 @@ section {
     margin: 40px auto;
 }
 
-.containner {
-    display: flex;
+.containner{
+   display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -202,49 +198,6 @@ section {
     top: 20px;
 }
 
-.border {
-    width: 160px;
-    height: 2px;
-    background: #daa22b;
-    margin: 40px auto;
-}
-
-.containner {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.service-box {
-    max-width: 33.33%;
-    padding: 10px;
-    text-align: center;
-    color: #ddd;
-    cursor: pointer;
-    margin-bottom: 50px;
-}
-
-.service-icon {
-    display: inline-block;
-    width: 70px;
-    height: 70px;
-    border: 3px solid #daa22b;
-    border-radius: 100%;
-    color: #fff;
-    margin-bottom: 30px;
-    margin-top: 16px;
-    transition: 0.7s linear;
-}
-
-.fas,
-.fab {
-    padding-top: 20px;
-}
-
-.service-icon:hover {
-    background: #daa22b;
-    color: #ddd
-}
 
 
 /*2éme section*/
@@ -381,6 +334,9 @@ section {
 .py-3 {
     padding: 30px 0;
 }
+.py-4{
+    margin-top:-20px;
+}
 
 
 /* about-info */
@@ -448,7 +404,6 @@ section {
 
 footer {
     background-color: black;
-    opacity: 0.5;
     font-size: 20px;
     height: 230px;
     padding-top: 35px;
@@ -473,4 +428,69 @@ footer {
 
 .space {
     margin-left: 20px;
+}
+/*form contact */
+#content{
+    width: 60%;
+    margin: 50px auto;
+}
+#contentcontact{
+    display: flex;
+    margin: 0px auto;
+}
+input{
+    width: 300px;
+    height: 35px;
+    border-color: #c6c6c6 ;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 5px;
+}
+input:active{
+    border: 0px;
+}
+textarea{
+    max-width:300px;
+    max-height: 300px;
+    min-width: 300px;
+    min-height: 200px;
+    font-size: 18px;
+    padding: 5px;
+    border-color: #c6c6c6 ;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 5px;
+    border: 2px;
+}
+#maps{
+    width: 400px;
+}
+#imagdiv{
+    display:inline-block;
+    margin-left: 50px;
+}
+h4{
+    margin-top: 20px;
+}
+.btn{
+    width: 300px;
+    height: 40px;
+    color: #f7c08a;
+    font-size: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-color: #f7c08a;
+}
+.btn:hover{
+    background-color: #f7c08a;
+    color: #333;
+}
+.boody{
+    font-family: 'Nunito', sans-serif;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../img/back.jpg");
+    background-size: cover;
 }
