@@ -7,10 +7,6 @@
 
 
 /*logo*/
-.containner{
-  display: flex;
- 
-}
 .logo {
     position: absolute;
     width: auto;
@@ -115,7 +111,8 @@ h3 {
 .buttonAtt:hover {
     background-color: wheat;
     color: #66545e;
-    transition: 2s all ease-in;
+    transition: 0.5s all ease-in linear;
+    cursor: pointer;
 }
 
 
