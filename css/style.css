@@ -1,27 +1,12 @@
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "montserrat", sans-serif;
 }
 
-
-/*logo*/
-
-.logo {
-    position: absolute;
-    width: auto;
-    height: auto;
-    max-height: 82px;
-    max-width: 300px;
-    margin-left: 40px;
-}
-
-
-/* Main stylin */
-
-html,
-body {
+/* Main Styling */
+html, body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
 }
@@ -31,23 +16,62 @@ a {
     text-decoration: none;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     padding-bottom: 20px;
 }
 
+p {
+	margin: 10px 0;
+	}
+
+/* Utility Classes */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary {
+    color: #f7c08a;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #f7c08a;
+    color: #333;
+}
+
+.clr {
+    clear: both;
+}
+
+.l-heading {
+    font-size: 40px;
+}
 
 /* navbar */
-
 #navbar {
     background: #333;
     color: #fff;
     overflow: auto;
 }
-
+/* put logo here in a navbar */
 #navbar a {
-    color: #fff;
+	color: #fff;
 }
 
 #navbar h1 {
@@ -76,17 +100,30 @@ h3 {
     color: #f7c08a;
 }
 
-
-/*parite home*/
-
-
-.background {
-    background-image: url(../img/work.jpg);
-    opacity: .7;
-    width: 100%;
-    height: 594px;
-    background-size: cover;
+/* Showcase */
+#showcase {
+  background: url('../img/work.jpg') no-repeat center center/cover;
+  height: 600px;
 }
+
+#showcase .showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 10px;
+  line-height: 1.7em;
+}
+
+/* part home*/
+
 .homeTitle {
   color: rgb(230, 186, 104);
   opacity: 0.9;
@@ -96,30 +133,7 @@ h3 {
   font-family: 'Permanent Marker', cursive;
 }
 
-
-.buttonAtt {
-    color: #a39193;
-    font-size: 24px;
-    padding: 16px 40px;
-    opacity: .9;
-    font-family: 'Permanent Marker', cursive;
-    text-align: center;
-    margin-left: 530px;
-    margin-top: 180px;
-    border-radius: 30px;
-    border: none;
-}
-
-.buttonAtt:hover {
-    background-color: wheat;
-    color: #66545e;
-    transition: 0.5s all ease-in linear;
-    cursor: pointer;
-}
-
-
 /*section service*/
-
 .inner-width {
     width: 100%;
     max-width: 1200px;
@@ -128,9 +142,7 @@ h3 {
     overflow: hidden;
 }
 
-
 /*Section*/
-
 section {
     background: url("../img/bg.jpg");
     height: 700px;
@@ -153,7 +165,7 @@ section {
     margin: 40px auto;
 }
 
-.containner{
+.container {
    display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -217,7 +229,7 @@ section {
     justify-content: center;
 }
 
-.profil {
+.profile {
     margin-left: 30px;
     display: flex;
     flex-direction: column;
@@ -260,85 +272,12 @@ section {
     margin-top: 30px;
 }
 
-
-/* Utility Classes */
-
-.container {
-    margin: auto;
-    max-width: 1100px;
-    overflow: auto;
-    padding: 0 20px;
-}
-
-.text-primary {
-    color: #f7c08a;
-}
-
-.lead {
-    font-size: 20px;
-}
-
-.btn {
-    display: inline-block;
-    font-size: 18px;
-    color: #fff;
-    background: #333;
-    padding: 13px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-.btn:hover {
-    background: #f7c08a;
-    color: #333;
-}
-
-.btn-light {
-    background: #f4f4f4;
-    color: #333;
-}
-
-.bg-dark {
-    background: #333;
-    color: #fff;
-}
-
-.bg-light {
-    background: #f4f4f4;
-    color: #333;
-}
-
-.bg-primary {
-    background: #f7c08a;
-    color: #333;
-}
-
-.clr {
-    clear: both;
-}
-
-.l-heading {
-    font-size: 40px;
-}
-
-
 /* Padding */
 
-.py-1 {
-    padding: 10px 0;
-}
-
-.py-2 {
-    padding: 20px 0;
-}
-
-.py-3 {
-    padding: 30px 0;
-}
-.py-4{
-    margin-top:-20px;
-}
-
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+.py-4 { margin-top:-20px; }
 
 /* about-info */
 
