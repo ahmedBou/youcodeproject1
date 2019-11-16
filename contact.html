@@ -30,19 +30,19 @@
             <div id="left">
                 <div>
                     <h4>Name</h4>
-                    <input type="text">
+                    <input type="text" id="name">
                 </div>
                 <div>
                     <h4>Email Address</h4>
-                    <input type="text">
+                    <input type="text" id="Em">
                 </div>
                 <div>
                     <h4>Phone Number</h4>
-                    <input type="text">
+                    <input type="number" id="PN">
                 </div>
                 <div>
                     <h4>Description</h4>
-                    <textarea ></textarea>
+                    <textarea id="Desc" ></textarea>
                 </div>
             </div>
             <div id="imagdiv">
@@ -50,7 +50,11 @@
                 <img id="maps" src="img/Capture.jpg"/>
             </div>
         </div>
-        <a href=""><button class="btn">Send</button></a>
+        <a href="">
+        <input type="submit" onclick="validation()" value="Send" class="btn"/>
+            <div id="info"></div>
+        
+        </a>
     </div>
 <footer>
         <div class="flex">
@@ -72,5 +76,6 @@
             <i class="fab fa-github space"></i>
         </div>
     </footer>
+    <script src="js/file.js"></script>
 </body>
 </html>

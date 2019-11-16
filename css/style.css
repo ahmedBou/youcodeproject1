@@ -15,6 +15,7 @@
     max-height: 82px;
     max-width: 300px;
     margin-left: 40px;
+    
 }
 
 
@@ -44,6 +45,7 @@ h3 {
     background: #333;
     color: #fff;
     overflow: auto;
+  
 }
 
 #navbar a {
