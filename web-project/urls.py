@@ -21,4 +21,5 @@ import services.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index', services.views.index, name='index'),
+    path('about', services.views.about, name='about'),
 ]
