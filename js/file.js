@@ -5,7 +5,8 @@
 function validation(){
     
     var name=document.getElementById('name').value,Email = document.getElementById('Em').value,Phone = document.getElementById('PN').value,
-        Desc = document.getElementById('Desc').value,pattern = "/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/";
+        Desc = document.getElementById('Desc').value,emailReg = new RegExp(/^([\w-\.]+)@((?:[\w]+\.)+)([a-zA-Z]{2,4})/i);
+    var valid = emailReg.test(Email);
     
     
     if(name == "" || Email == "" || Phone == "" || Desc == ""){
@@ -17,15 +18,15 @@ function validation(){
        if(Phone.length != 10){
             
             alert('Le numbre de telephone il ne doit pas etre inferieur ou superieur de 11');
-        }else if(Email.match(pattern))
+        }else if(!valid)
         {
             
               alert("la form de mail nest pas valide");
             
         }else{
 
-            alert("lae message a ete bien envoyer");
-            
+            alert("le message a ete bien envoyer");
+           
         }
         
         

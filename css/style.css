@@ -217,7 +217,21 @@ section {
 .pictures {
     display: flex;
     justify-content: center;
+    
 }
+.profil{
+    
+   filter: grayscale(100%);
+   transition: 0.4s all; 
+    
+}
+.profil:hover{
+    
+    filter: none;
+    cursor: pointer;
+    
+}
+
 
 .profil {
     margin-left: 30px;
